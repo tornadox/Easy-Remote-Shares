@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Easy Remote Shares Setup
+Exec=curl -sSL https://raw.githubusercontent.com/tornadox/Easy-Remote-Shares/main/scripts/setup.sh | bash
+Icon=system-file-manager
+Type=Application
+Categories=Utility;
+Terminal=true
