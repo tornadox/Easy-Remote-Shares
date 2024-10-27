@@ -2,7 +2,7 @@
 
 # Create base directory
 BASE_DIR="$HOME/easy-remote-shares"
-DESKTOP_DIR="$HOME/Desktop"
+DESKTOP_DIR=$(xdg-user-dir DESKTOP)
 mkdir -p "$BASE_DIR"
 cd "$BASE_DIR"
 
